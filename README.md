@@ -1,1 +1,41 @@
-IyBNaW5pbWFsIENhbGMKCk1pbmltYWwgQ2FsYyBpcyBhIHNsZWVrIHNpbmdsZS1wYWdlIFJPSSBjYWxjdWxhdG9yIGZvciBzZXJ2aWNlIGJ1c2luZXNzZXMuIEl0IGhlbHBzIGFnZW5jaWVzIGFuZCBjb25zdWx0YW5jaWVzIGVzdGltYXRlIHJldmVudWUgaW1wYWN0LCBST0ksIGFuZCBhIHN1Z2dlc3RlZCBwcm9qZWN0IHF1b3RlIGJhc2VkIG9uIGEgZmV3IGNvcmUgYXNzdW1wdGlvbnMuCgojIyBGZWF0dXJlcwoKLSBQcmVtaXVtIFNhYVMtc3R5bGUgbGFuZGluZyBwYWdlCi0gRWRpdGFibGUgY2FsY3VsYXRvciBpbnB1dHMKLSBJbnN0YW50IHJldmVudWUgdXBsaWZ0IGFuZCBST0kgcHJvamVjdGlvbnMKLSBTdWdnZXN0ZWQgaW1wbGVtZW50YXRpb24gcXVvdGUKLSBMZWFkIGNhcHR1cmUgZm9ybQotIFJlc3BvbnNpdmUgUmVhY3QgKyBUeXBlU2NyaXB0IFVJCgojIyBHZXR0aW5nIHN0YXJ0ZWQKCmBgYGJhc2gKbnBtIGluc3RhbGwKbnBtIHJ1biBkZXYKYGBgCgojIyBQcm9kdWN0aW9uIGJ1aWxkCgpgYGBiYXNoCm5wbSBydW4gYnVpbGQKYGBgCgojIyBUZWNoIHN0YWNrCgotIFZpdGUKLSBSZWFjdAotIFR5cGVTY3JpcHQKLSBDU1MK
+# Minimal Calc
+
+Minimal Calc is a sleek single-page ROI calculator for service businesses. It helps agencies and consultancies estimate revenue impact, ROI, and a suggested project quote from a few core assumptions.
+
+## Features
+
+- Premium single-page calculator experience
+- Live editable assumptions with instant recalculation
+- Revenue uplift, ROI, and pricing guidance
+- Responsive React and TypeScript interface
+- GitHub Pages deployment workflow
+
+## Local development
+
+```bash
+npm install
+npm run dev
+```
+
+## Production build
+
+```bash
+npm run build
+```
+
+## Deploying to GitHub Pages
+
+This project is configured for deployment under the repository path:
+
+```text
+/minimal-calc/
+```
+
+Pushing to `main` triggers the GitHub Pages deployment workflow.
+
+## Tech stack
+
+- Vite
+- React
+- TypeScript
+- CSS
