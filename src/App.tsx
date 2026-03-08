@@ -1,1 +1,296 @@
-aW1wb3J0ICcuL0FwcC5jc3MnCgp0eXBlIENhbGN1bGF0b3JJbnB1dHMgPSB7CiAgbW9udGhseUxlYWRzOiBudW1iZXIKICBjbG9zZVJhdGU6IG51bWJlcgogIGF2ZXJhZ2VEZWFsVmFsdWU6IG51bWJlcgogIGNvbnZlcnNpb25MaWZ0OiBudW1iZXIKICBwcm9qZWN0RHVyYXRpb246IG51bWJlcgp9Cgpjb25zdCBjdXJyZW5jeSA9IG5ldyBJbnRsLk51bWJlckZvcm1hdCgnZW4tVVMnLCB7CiAgc3R5bGU6ICdjdXJyZW5jeScsCiAgY3VycmVuY3k6ICdVU0QnLAogIG1heGltdW1GcmFjdGlvbkRpZ2l0czogMCwKfSkKCmZ1bmN0aW9uIEFwcCgpIHsKICBjb25zdCBpbnB1dHM6IENhbGN1bGF0b3JJbnB1dHMgPSB7CiAgICBtb250aGx5TGVhZHM6IDEyMCwKICAgIGNsb3NlUmF0ZTogMjIsCiAgICBhdmVyYWdlRGVhbFZhbHVlOiAzODAwLAogICAgY29udmVyc2lvbkxpZnQ6IDE4LAogICAgcHJvamVjdER1cmF0aW9uOiAxMiwKICB9CgogIGNvbnN0IGN1cnJlbnRDdXN0b21lcnMgPSBpbnB1dHMubW9udGhseUxlYWRzICogKGlucHV0cy5jbG9zZVJhdGUgLyAxMDApCiAgY29uc3QgaW1wcm92ZWRDdXN0b21lcnMgPQogICAgaW5wdXRzLm1vbnRobHlMZWFkcyAqICgoaW5wdXRzLmNsb3NlUmF0ZSArIGlucHV0cy5jb252ZXJzaW9uTGlmdCkgLyAxMDApCiAgY29uc3QgYWRkaXRpb25hbEN1c3RvbWVyc1Blck1vbnRoID0gaW1wcm92ZWRDdXN0b21lcnMgLSBjdXJyZW50Q3VzdG9tZXJzCiAgY29uc3QgbW9udGhseVJldmVudWVMaWZ0ID0KICAgIGFkZGl0aW9uYWxDdXN0b21lcnNQZXJNb250aCAqIGlucHV0cy5hdmVyYWdlRGVhbFZhbHVlCiAgY29uc3QgYW5udWFsUmV2ZW51ZUxpZnQgPSBtb250aGx5UmV2ZW51ZUxpZnQgKiBpbnB1dHMucHJvamVjdER1cmF0aW9uCiAgY29uc3Qgc3VnZ2VzdGVkUXVvdGUgPSBNYXRoLm1heCgzNTAwLCBhbm51YWxSZXZlbnVlTGlmdCAqIDAuMTIpCiAgY29uc3Qgcm9pID0gKChhbm51YWxSZXZlbnVlTGlmdCAtIHN1Z2dlc3RlZFF1b3RlKSAvIHN1Z2dlc3RlZFF1b3RlKSAqIDEwMAoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImFwcC1zaGVsbCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJiYWNrZ3JvdW5kLWdsb3cgYmFja2dyb3VuZC1nbG93LWxlZnQiIC8+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJiYWNrZ3JvdW5kLWdsb3cgYmFja2dyb3VuZC1nbG93LXJpZ2h0IiAvPgogCiAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPSJoZXJvIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaGVyby1jb3B5Ij4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZXllYnJvdyI+UmV2ZW51ZSBjYWxjdWxhdG9yIGZvciBzZXJ2aWNlIGJ1c2luZXNzZXM8L3NwYW4+CiAgICAgICAgICA8aDE+VHVybiBhIGZldyBmdW5uZWwgaW5wdXRzIGludG8gYSBjbGVhciBncm93dGggY2FzZS48L2gxPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJoZXJvLXRleHQiPgogICAgICAgICAgICBNaW5pbWFsIENhbGMgaGVscHMgYWdlbmNpZXMsIGNvbnN1bHRhbnRzLCBhbmQgaGlnaC10aWNrZXQgc2VydmljZSB0ZWFtcwogICAgICAgICAgICBlc3RpbWF0ZSBjb252ZXJzaW9uIHVwc2lkZSwgcmV2ZW51ZSBpbXBhY3QsIGFuZCBhIHNtYXJ0IGltcGxlbWVudGF0aW9uCiAgICAgICAgICAgIHF1b3RlIGluIHVuZGVyIGEgbWludXRlLgogICAgICAgICAgPC9wPgogCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaGVyby1wb2ludHMiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaGVyby1wb2ludCI+CiAgICAgICAgICAgICAgPHN0cm9uZz5GYXN0PC9zdHJvbmc+CiAgICAgICAgICAgICAgPHNwYW4+SW5zdGFudCBST0kgbW9kZWxpbmcgZm9yIHNhbGVzIGNvbnZlcnNhdGlvbnMuPC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Imhlcm8tcG9pbnQiPgogICAgICAgICAgICAgIDxzdHJvbmc+Q3JlZGlibGU8L3N0cm9uZz4KICAgICAgICAgICAgICA8c3Bhbj5Hcm91bmQgZGVjaXNpb25zIGluIGxlYWQgdm9sdW1lLCBjbG9zZSByYXRlLCBhbmQgZGVhbCB2YWx1ZS48L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaGVyby1wb2ludCI+CiAgICAgICAgICAgICAgPHN0cm9uZz5BY3Rpb25hYmxlPC9zdHJvbmc+CiAgICAgICAgICAgICAgPHNwYW4+V2FsayBhd2F5IHdpdGggcHJvamVjdGVkIHVwc2lkZSBhbmQgcmVjb21tZW5kZWQgcHJpY2luZy48L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaGVyby1jYXJkIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJoZXJvLWNhcmQtbGFiZWwiPlByb2plY3RlZCBhbm51YWwgdXBsaWZ0PC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaGVyby1jYXJkLXZhbHVlIj57Y3VycmVuY3kuZm9ybWF0KGFubnVhbFJldmVudWVMaWZ0KX08L2Rpdj4KICAgICAgICAgIDxwPgogICAgICAgICAgICBCYXNlZCBvbiBhIHtpbnB1dHMuY29udmVyc2lvbkxpZnR9JSBsaWZ0IGluIGNsb3NlIHJhdGUgYWNyb3NzIHsnICd9CiAgICAgICAgICAgIHtpbnB1dHMucHJvamVjdER1cmF0aW9ufSBtb250aHMuCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvaGVhZGVyPgoKICAgICAgPG1haW4gY2xhc3NOYW1lPSJjb250ZW50LWdyaWQiPgogICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0icGFuZWwgY2FsY3VsYXRvci1wYW5lbCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icGFuZWwtaGVhZGluZyI+CiAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJzZWN0aW9uLWtpY2tlciI+Q2FsY3VsYXRvcjwvc3Bhbj4KICAgICAgICAgICAgICA8aDI+RGVmYXVsdCBwbGFubmluZyBhc3N1bXB0aW9uczwvaDI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8cD4KICAgICAgICAgICAgICBUaGVzZSBhcmUgdGhlIGV4YWN0IGJhc2VsaW5lIG51bWJlcnMgdXNlZCBmb3IgdGhlIHZlcmlmaWVkIGJ1aWxkLgogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmllbGQtZ3JpZCI+CiAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImZpZWxkIj4KICAgICAgICAgICAgICA8c3Bhbj5Nb250aGx5IGxlYWRzPC9zcGFuPgogICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJudW1iZXIiIHZhbHVlPXtpbnB1dHMubW9udGhseUxlYWRzfSByZWFkT25seSAvPgogICAgICAgICAgICA8L2xhYmVsPgoKICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iZmllbGQiPgogICAgICAgICAgICAgIDxzcGFuPkN1cnJlbnQgY2xvc2UgcmF0ZTwvc3Bhbj4KICAgICAgICAgICAgICA8aW5wdXQgdHlwZT0ibnVtYmVyIiB2YWx1ZT17aW5wdXRzLmNsb3NlUmF0ZX0gcmVhZE9ubHkgLz4KICAgICAgICAgICAgPC9sYWJlbD4KCiAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImZpZWxkIj4KICAgICAgICAgICAgICA8c3Bhbj5BdmVyYWdlIGRlYWwgdmFsdWU8L3NwYW4+CiAgICAgICAgICAgICAgPGlucHV0IHR5cGU9Im51bWJlciIgdmFsdWU9e2lucHV0cy5hdmVyYWdlRGVhbFZhbHVlfSByZWFkT25seSAvPgogICAgICAgICAgICA8L2xhYmVsPgoKICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iZmllbGQiPgogICAgICAgICAgICAgIDxzcGFuPkV4cGVjdGVkIGNvbnZlcnNpb24gbGlmdDwvc3Bhbj4KICAgICAgICAgICAgICA8aW5wdXQgdHlwZT0ibnVtYmVyIiB2YWx1ZT17aW5wdXRzLmNvbnZlcnNpb25MaWZ0fSByZWFkT25seSAvPgogICAgICAgICAgICA8L2xhYmVsPgoKICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iZmllbGQgZmllbGQtZnVsbCI+CiAgICAgICAgICAgICAgPHNwYW4+UHJvamVjdGlvbiB3aW5kb3cgaW4gbW9udGhzPC9zcGFuPgogICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJudW1iZXIiIHZhbHVlPXtpbnB1dHMucHJvamVjdER1cmF0aW9ufSByZWFkT25seSAvPgogICAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNhbGN1bGF0b3Itbm90ZSI+CiAgICAgICAgICAgIDxzdHJvbmc+SG93IHRvIHJlYWQgdGhpczo8L3N0cm9uZz4gSWYgYSB0ZWFtIGltcHJvdmVzIGNsb3NlIHJhdGUgZnJvbXsnICd9CiAgICAgICAgICAgIHtpbnB1dHMuY2xvc2VSYXRlfSUgdG8ge2lucHV0cy5jbG9zZVJhdGUgKyBpbnB1dHMuY29udmVyc2lvbkxpZnR9JSB3aXRoCiAgICAgICAgICAgIHRoZSBzYW1lIGxlYWQgZmxvdywgdGhlIHJldmVudWUgZGVsdGEgYmVsb3cgc2hvd3MgdGhlIG1vZGVsbGVkIHVwc2lkZS4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJwYW5lbCByZXN1bHRzLXBhbmVsIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJwYW5lbC1oZWFkaW5nIj4KICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICA8c3Bhbj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ic2VjdGlvbi1raWNrZXIiPlJlc3VsdHM8L3NwYW4+CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDxoMj5Nb2RlbGVkIGJ1c2luZXNzIGltcGFjdDwvaDI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8cD5Vc2UgdGhpcyBvdXRwdXQgaW4gcHJvcG9zYWxzLCBhdWRpdHMsIGFuZCBjbGllbnQgc3RyYXRlZ3kgY2FsbHMuPC9wPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InN0YXRzLWdyaWQiPgogICAgICAgICAgICA8YXJ0aWNsZSBjbGFzc05hbWU9InN0YXQtY2FyZCI+CiAgICAgICAgICAgICAgPHNwYW4+RXh0cmEgY3VzdG9tZXJzIC8gbW9udGg8L3NwYW4+CiAgICAgICAgICAgICAgPHN0cm9uZz57YWRkaXRpb25hbEN1c3RvbWVyc1Blck1vbnRoLnRvRml4ZWQoMSl9PC9zdHJvbmc+CiAgICAgICAgICAgIDwvYXJ0aWNsZT4KCiAgICAgICAgICAgIDxhcnRpY2xlIGNsYXNzTmFtZT0ic3RhdC1jYXJkIj4KICAgICAgICAgICAgICA8c3Bhbj5Nb250aGx5IHJldmVudWUgdXBsaWZ0PC9zcGFuPgogICAgICAgICAgICAgIDxzdHJvbmc+e2N1cnJlbmN5LmZvcm1hdChtb250aGx5UmV2ZW51ZUxpZnQpfTwvc3Ryb25nPgogICAgICAgICAgICA8L2FydGljbGU+CgogICAgICAgICAgICA8YXJ0aWNsZSBjbGFzc05hbWU9InN0YXQtY2FyZCI+CiAgICAgICAgICAgICAgPHNwYW4+QW5udWFsIHJldmVudWUgdXBsaWZ0PC9zcGFuPgogICAgICAgICAgICAgIDxzdHJvbmc+e2N1cnJlbmN5LmZvcm1hdChhbm51YWxSZXZlbnVlTGlmdCl9PC9zdHJvbmc+CiAgICAgICAgICAgIDwvYXJ0aWNsZT4KCiAgICAgICAgICAgIDxhcnRpY2xlIGNsYXNzTmFtZT0ic3RhdC1jYXJkIj4KICAgICAgICAgICAgICA8c3Bhbj5Fc3RpbWF0ZWQgUk9JPC9zcGFuPgogICAgICAgICAgICAgIDxzdHJvbmc+e3JvaS50b0ZpeGVkKDApfSU8L3N0cm9uZz4KICAgICAgICAgICAgPC9hcnRpY2xlPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InF1b3RlLWNhcmQiPgogICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0icXVvdGUtbGFiZWwiPlN1Z2dlc3RlZCBwcm9qZWN0IHF1b3RlPC9zcGFuPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJxdW90ZS12YWx1ZSI+e2N1cnJlbmN5LmZvcm1hdChzdWdnZXN0ZWRRdW90ZSl9PC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8cD4KICAgICAgICAgICAgICBCZW5jaG1hcmtlZCBhdCByb3VnaGx5IDEyJSBvZiBwcm9qZWN0ZWQgdmFsdWUgY3JlYXRlZCwgd2l0aCBhIG1pbmltdW0KICAgICAgICAgICAgICBmbG9vciBmb3Igc21hbGxlciBlbmdhZ2VtZW50cy4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InBhbmVsIGxlYWQtcGFuZWwiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InBhbmVsLWhlYWRpbmciPgogICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ic2VjdGlvbi1raWNrZXIiPkxlYWQgY2FwdHVyZTwvc3Bhbj4KICAgICAgICAgICAgICA8aDI+VHVybiBpbnRlcmVzdCBpbnRvIHBpcGVsaW5lPC9oMj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxwPgogICAgICAgICAgICAgIEEgbGlnaHR3ZWlnaHQgY2FsbC10by1hY3Rpb24gc2VjdGlvbiBmb3IgcHJvc3BlY3RzIHdobyB3YW50IGEgY3VzdG9tCiAgICAgICAgICAgICAgc2NlbmFyaW8uCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxmb3JtIGNsYXNzTmFtZT0ibGVhZC1mb3JtIj4KICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iZmllbGQiPgogICAgICAgICAgICAgIDxzcGFuPk5hbWU8L3NwYW4+CiAgICAgICAgICAgICAgPGlucHV0IHR5cGU9InRleHQiIHBsYWNlaG9sZGVyPSJBbGV4IE1vcmdhbiIgLz4KICAgICAgICAgICAgPC9sYWJlbD4KCiAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImZpZWxkIj4KICAgICAgICAgICAgICA8c3Bhbj5Xb3JrIGVtYWlsPC9zcGFuPgogICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJlbWFpbCIgcGxhY2Vob2xkZXI9ImFsZXhAY29tcGFueS5jb20iIC8+CiAgICAgICAgICAgIDwvbGFiZWw+CgogICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJmaWVsZCBmaWVsZC1mdWxsIj4KICAgICAgICAgICAgICA8c3Bhbj5XaGF0IGFyZSB5b3UgdHJ5aW5nIHRvIGltcHJvdmU/PC9zcGFuPgogICAgICAgICAgICAgIDx0ZXh0YXJlYQogICAgICAgICAgICAgICAgcm93cz17NX0KICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJFeGFtcGxlOiBXZSB3YW50IHRvIGluY3JlYXNlIGJvb2tlZCBjYWxscyBmcm9tIGluYm91bmQgbGVhZHMgYW5kIGp1c3RpZnkgYSBDUk8gZW5nYWdlbWVudC4iCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgPC9sYWJlbD4KCiAgICAgICAgICAgIDxidXR0b24gdHlwZT0iYnV0dG9uIiBjbGFzc05hbWU9InByaW1hcnktYnV0dG9uIj4KICAgICAgICAgICAgICBSZXF1ZXN0IGEgY3VzdG9tIFJPSSBicmVha2Rvd24KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICA8L2Zvcm0+CiAgICAgICAgPC9zZWN0aW9uPgogICAgICA8L21haW4+CiAgICA8L2Rpdj4KICApCn0KCmV4cG9ydCBkZWZhdWx0IEFwcAo=
+import { useMemo, useState } from 'react'
+import './App.css'
+
+type CalculatorInputs = {
+  monthlyLeads: number
+  closeRate: number
+  averageDealValue: number
+  conversionLift: number
+  projectedDuration: number
+}
+
+const currency = new Intl.NumberFormat('en-US', {
+  style: 'currency',
+  currency: 'USD',
+  maximumFractionDigits: 0,
+})
+
+const defaultInputs: CalculatorInputs = {
+  monthlyLeads: 120,
+  closeRate: 22,
+  averageDealValue: 3800,
+  conversionLift: 18,
+  projectedDuration: 12,
+}
+
+function App() {
+  const [inputs, setInputs] = useState<CalculatorInputs>(defaultInputs)
+
+  const results = useMemo(() => {
+    const currentCustomers = inputs.monthlyLeads * (inputs.closeRate / 100)
+    const improvedCloseRate = Math.min(inputs.closeRate + inputs.conversionLift, 95)
+    const improvedCustomers = inputs.monthlyLeads * (improvedCloseRate / 100)
+    const additionalCustomersPerMonth = Math.max(improvedCustomers - currentCustomers, 0)
+    const monthlyRevenueLift = additionalCustomersPerMonth * inputs.averageDealValue
+    const projectedRevenueLift = monthlyRevenueLift * inputs.projectedDuration
+    const suggestedQuote = Math.max(3500, projectedRevenueLift * 0.12)
+    const roi = suggestedQuote > 0 ? ((projectedRevenueLift - suggestedQuote) / suggestedQuote) * 100 : 0
+
+    return {
+      currentCustomers,
+      improvedCloseRate,
+      improvedCustomers,
+      additionalCustomersPerMonth,
+      monthlyRevenueLift,
+      projectedRevenueLift,
+      suggestedQuote,
+      roi,
+    }
+  }, [inputs])
+
+  const updateInput = <K extends keyof CalculatorInputs>(key: K, value: number) => {
+    setInputs((current) => ({
+      ...current,
+      [key]: value,
+    }))
+  }
+
+  return (
+    <div className="app-shell">
+      <div className="background-glow background-glow--left" />
+      <div className="background-glow background-glow--right" />
+
+      <header className="hero">
+        <div className="hero-copy">
+          <span className="eyebrow">White-label ROI calculator</span>
+          <h1>Turn a few assumptions into a credible growth story.</h1>
+          <p className="hero-text">
+            Minimal Calc helps agencies, consultants, and service businesses model revenue upside,
+            pricing, and ROI in real time during discovery, qualification, and proposal calls.
+          </p>
+
+          <div className="hero-points">
+            <div className="hero-point">
+              <strong>Live during calls</strong>
+              <span>Adjust inputs instantly and let the numbers support your pitch.</span>
+            </div>
+            <div className="hero-point">
+              <strong>Outcome-led pricing</strong>
+              <span>Frame your quote as a fraction of projected upside instead of hours.</span>
+            </div>
+            <div className="hero-point">
+              <strong>Simple to trust</strong>
+              <span>Use a transparent model built from leads, close rate, and deal value.</span>
+            </div>
+          </div>
+        </div>
+
+        <aside className="hero-card">
+          <span className="hero-card-label">Snapshot</span>
+          <h2>{currency.format(results.projectedRevenueLift)}</h2>
+          <p>Projected revenue opportunity across the engagement window</p>
+
+          <div className="metric-grid">
+            <div className="metric-card">
+              <span>Monthly uplift</span>
+              <strong>{currency.format(results.monthlyRevenueLift)}</strong>
+            </div>
+            <div className="metric-card">
+              <span>Suggested quote</span>
+              <strong>{currency.format(results.suggestedQuote)}</strong>
+            </div>
+            <div className="metric-card">
+              <span>Additional customers</span>
+              <strong>{results.additionalCustomersPerMonth.toFixed(1)} / mo</strong>
+            </div>
+            <div className="metric-card">
+              <span>ROI</span>
+              <strong>{results.roi.toFixed(0)}%</strong>
+            </div>
+          </div>
+        </aside>
+      </header>
+
+      <main className="content-grid">
+        <section className="panel panel--inputs">
+          <div className="panel-heading">
+            <span className="section-kicker">Assumptions</span>
+            <h3>Edit the model live</h3>
+            <p>
+              Tune each lever below to match the client or opportunity. Every output on the page
+              updates instantly.
+            </p>
+          </div>
+
+          <div className="input-list">
+            <label className="input-row">
+              <div className="input-header">
+                <span>Monthly leads</span>
+                <strong>{inputs.monthlyLeads}</strong>
+              </div>
+              <input
+                type="range"
+                min="20"
+                max="500"
+                step="5"
+                value={inputs.monthlyLeads}
+                onChange={(event) => updateInput('monthlyLeads', Number(event.target.value))}
+              />
+            </label>
+
+            <label className="input-row">
+              <div className="input-header">
+                <span>Current close rate</span>
+                <strong>{inputs.closeRate}%</strong>
+              </div>
+              <input
+                type="range"
+                min="5"
+                max="60"
+                step="1"
+                value={inputs.closeRate}
+                onChange={(event) => updateInput('closeRate', Number(event.target.value))}
+              />
+            </label>
+
+            <label className="input-row">
+              <div className="input-header">
+                <span>Average deal value</span>
+                <strong>{currency.format(inputs.averageDealValue)}</strong>
+              </div>
+              <input
+                type="range"
+                min="500"
+                max="10000"
+                step="100"
+                value={inputs.averageDealValue}
+                onChange={(event) => updateInput('averageDealValue', Number(event.target.value))}
+              />
+            </label>
+
+            <label className="input-row">
+              <div className="input-header">
+                <span>Projected conversion lift</span>
+                <strong>+{inputs.conversionLift}%</strong>
+              </div>
+              <input
+                type="range"
+                min="2"
+                max="40"
+                step="1"
+                value={inputs.conversionLift}
+                onChange={(event) => updateInput('conversionLift', Number(event.target.value))}
+              />
+            </label>
+
+            <label className="input-row">
+              <div className="input-header">
+                <span>Projection window</span>
+                <strong>{inputs.projectedDuration} months</strong>
+              </div>
+              <input
+                type="range"
+                min="3"
+                max="24"
+                step="1"
+                value={inputs.projectedDuration}
+                onChange={(event) => updateInput('projectedDuration', Number(event.target.value))}
+              />
+            </label>
+          </div>
+
+          <div className="calculator-note">
+            Use this model to make assumptions explicit, pressure-test upside, and land on a fee
+            that feels commercially grounded.
+          </div>
+        </section>
+
+        <section className="panel panel--results">
+          <div className="panel-heading">
+            <span className="section-kicker">Business impact</span>
+            <h3>From conversion lift to revenue</h3>
+            <p>
+              The model compares current performance with an improved close rate and turns the
+              difference into revenue potential.
+            </p>
+          </div>
+
+          <div className="results-stack">
+            <div className="result-card result-card--accent">
+              <span>Current customers per month</span>
+              <strong>{results.currentCustomers.toFixed(1)}</strong>
+              <p>
+                {inputs.monthlyLeads} leads x {inputs.closeRate}% close rate
+              </p>
+            </div>
+
+            <div className="result-card">
+              <span>Projected close rate</span>
+              <strong>{results.improvedCloseRate.toFixed(0)}%</strong>
+              <p>Current close rate plus the expected conversion lift</p>
+            </div>
+
+            <div className="result-card">
+              <span>Projected customers per month</span>
+              <strong>{results.improvedCustomers.toFixed(1)}</strong>
+              <p>
+                {inputs.monthlyLeads} leads x {results.improvedCloseRate.toFixed(0)}% improved close rate
+              </p>
+            </div>
+
+            <div className="result-card">
+              <span>New revenue per month</span>
+              <strong>{currency.format(results.monthlyRevenueLift)}</strong>
+              <p>
+                {results.additionalCustomersPerMonth.toFixed(1)} more customers x {currency.format(inputs.averageDealValue)}
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="panel panel--quote">
+          <div className="panel-heading">
+            <span className="section-kicker">Pricing guidance</span>
+            <h3>Anchor your fee to the upside</h3>
+            <p>
+              A value-based quote becomes easier to defend when it is framed as a small share of the
+              projected gain.
+            </p>
+          </div>
+
+          <div className="quote-card">
+            <span className="quote-label">Suggested implementation quote</span>
+            <h2>{currency.format(results.suggestedQuote)}</h2>
+            <p>
+              Based on roughly 12% of projected revenue lift, with a minimum floor for smaller
+              engagements.
+            </p>
+          </div>
+
+          <div className="quote-notes">
+            <div className="note">
+              <strong>Engagement upside</strong>
+              <p>{currency.format(results.projectedRevenueLift)} across {inputs.projectedDuration} months.</p>
+            </div>
+            <div className="note">
+              <strong>Sales positioning</strong>
+              <p>Lead with business impact first, then present the fee as a fraction of expected return.</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer className="footer-panel">
+        <div>
+          <span className="section-kicker">Minimal Calc</span>
+          <h3>A clean ROI conversation starter for modern service teams.</h3>
+        </div>
+        <a className="footer-cta" href="https://github.com/dttdrv/minimal-calc" target="_blank" rel="noreferrer">
+          View repository
+        </a>
+      </footer>
+    </div>
+  )
+}
+
+export default App
